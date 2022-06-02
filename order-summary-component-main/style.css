@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 62.5%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.fondo__principal{
+    background:#d6e1ff;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    width: 15rem;
+    height: 25rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+}
+.fomato__fondo{
+    width: 100%;
+    height: 30%;
+    border-radius: 1rem 1rem 0 0;
+}
+.formato__titulo{
+    background-color: #FFFFFF;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 1rem 0 0 0;
+    text-align: center;
+    font-size: 1rem;
+}
+.formato__parrafo{
+    background-color: #FFFFFF;
+    color: grey;
+    width: 100%;
+    font-size: 0.1rem;
+    padding: 1rem 0.2rem;
+    text-align: center;
+    font-size: 0.72rem;
+}
+.lista__plan{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0.2rem;
+}
+.lista__plan li{
+    list-style-type: none;
+}
+.lista__plan_texto h1{
+    font-size: 0.7rem;
+}
+.lista__plan_texto p{
+    color: grey;
+}
+.lista__plan_imagen img{
+    width: 80%;
+    height: 80%;
+}
+.lista__plan_vinculo a{
+    font-weight: bold;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.boton__payment{
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    width: 13rem;
+    height: 2rem;
+    color: hsl(225, 100%, 94%);
+    background-color: hsl(245, 75%, 52%);
+    cursor: pointer;
+    margin: 1rem 0;
+}
+.boton__cancel{
+    width: 13rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: none;
+    background-color:hsl(225, 100%, 94%);
+    margin-bottom: 1rem;
+    color:grey;
+    cursor: pointer;
+}
+.lista__plan_vinculo a:hover{
+    color: grey;
+    text-decoration: none;
+}
+.boton__payment:hover{
+    background-color: #766cf1;
+}
+.boton__cancel:hover{
+    color: black;
+}
